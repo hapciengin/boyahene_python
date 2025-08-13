@@ -1,0 +1,59 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.venv/
+venv/
+ENV/
+env/
+venv3/
+env3/
+.env # Environment variables file (if it contains sensitive data)
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.cproject
+.buildpath
+*.user
+
+# OS generated files
+.DS_Store
+.localized
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build and temporary files
+build/
+dist/
+*.egg-info/
+.Python
+build/lib/
+build/lib.*
+build/bdist.*
+*.egg
+
+# Sensitive files (ADD YOUR PROJECT SPECIFIC SENSITIVE FILES HERE!)
+# api_keys.txt
+# config.json
+# credentials.yml
+
+# Logs
+*.log
+
+# Secrets
+*.secret
+*.pem
+*.key
+*.crt
+*.p12
